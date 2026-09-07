@@ -571,13 +571,21 @@ If you find this project useful:
 
 🤝 Contribute
 
-<div align="center">
-🚀 Automate the search. Focus on the opportunity.
+---
 
-Built with ❤️ using Google Apps Script + Gmail + Google Sheets
+# 🚀 Automate the search. Focus on the opportunity.
 
-<br>
+Built with ❤️ using:
 
-⭐ If this project helped you, consider giving it a star! ⭐
+- ⚙️ Google Apps Script
+- 📧 Gmail
+- 📊 Google Sheets
+- ☁️ Google Drive
 
-</div> ```
+---
+
+### ⭐ Like this project?
+
+If this automation helped you, consider giving the repository a **⭐ Star**!
+
+**Happy job hunting! 🌍🚀**
