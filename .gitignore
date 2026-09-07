@@ -1,0 +1,25 @@
+# Google Apps Script / local development
+.clasp.json
+.claspignore
+
+# Secrets and credentials
+.env
+*.env
+credentials.json
+token.json
+service-account*.json
+
+# Personal/private files
+*.pdf
+*.doc
+*.docx
+*.xlsx
+*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
