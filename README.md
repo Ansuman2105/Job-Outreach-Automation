@@ -138,11 +138,11 @@ Recruiter Name	Email	Company	Job Title	Status
 John	recruiter@example.com	Example Corp	Data Engineer	Pending
 Sarah	hr@example.com	Global Tech	Software Engineer	Sent
 Mike	jobs@example.com	Tech Ltd	Cloud Engineer	Success
+
 ⚡ Automation Workflow
+
 1️⃣ Add a recruiter
-
 Simply add:
-
 Recruiter Name
 Email
 Company
@@ -150,13 +150,9 @@ Job Title
 Status = Pending
 
 2️⃣ Initial email
-
 The automation detects:
-
 Status = Pending
-
 and automatically:
-
 📧 Creates email
        ↓
 📎 Attaches CV
@@ -181,6 +177,7 @@ Follow-up #1
 Follow-up #2
      ↓
 Ignored
+
 4️⃣ Reply detection
 
 The script checks Gmail for responses from the recruiter.
@@ -327,20 +324,6 @@ The automation creates scheduled jobs for:
 ⚠️ Google Apps Script time-based triggers are approximate. They should be treated as scheduled windows rather than guaranteed exact execution times.
 
 🔐 Security & Privacy
-
-Never commit sensitive information to GitHub.
-
-Do NOT upload:
-
-❌ CV / Resume
-❌ Recruiter email lists
-❌ Personal email addresses
-❌ Google Drive private file IDs
-❌ OAuth credentials
-❌ API keys
-❌ Passwords
-❌ Private application data
-
 The repository intentionally uses placeholders such as:
 
 const CV_FILE_ID = "YOUR_GOOGLE_DRIVE_PDF_FILE_ID";
@@ -458,6 +441,7 @@ you maintain one simple source of truth:
         ┌──────────┼──────────┐
         ▼          ▼          ▼
       Gmail     Scheduler   Tracking
+
 🌎 Built for Global Job Searches
 
 This project is intentionally not tied to one country, company, role, or industry.
